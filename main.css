@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+}
+
+table {
+    border: .5vmin solid;
+    position: center;
+    margin: auto;
+    width: 90vmin;
+    height: 90vmin;
+    table-layout: fixed;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+tr {
+    text-align: center;
+}
+
+td {
+    border: .3vmin solid;
+    border-color: black;
+    color: gray;
+    font-size: 60px;
+}
+
+.status {
+    margin: 4vmin;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
